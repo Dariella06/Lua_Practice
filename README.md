@@ -5,16 +5,16 @@ Este proyecto está compuesto por varios módulos en **Lua** que cubren temas cl
 
 ## Archivos del Proyecto
 
-### 1. [Aprendizaje_comandos\Principal_Nombre.lua](Principal_Nombre.lua)
+### 1. [Principal_Nombre.lua](Aprendizaje_comandos\Principal_Nombre.lua)
 Este archivo contiene la función principal que gestiona la ejecución del programa. La función principal es responsable de llamar a otras funciones, ejecutar condiciones y bucles.
 
-### 2. [Aprendizaje_comandos\Funciones.lua](Funciones.lua)
+### 2. [Funciones.lua](Aprendizaje_comandos\Funciones.lua)
 Aquí se definen las funciones específicas que realizan tareas particulares dentro del proyecto. Cada función es modular y cumple con un propósito específico que puede ser reutilizado.
 
-### 3. [Aprendizaje_comandos\Condiciones.lua](Condiciones.lua)
+### 3. [Condiciones.lua](Aprendizaje_comandos\Condiciones.lua)
 En este archivo se gestionan las estructuras condicionales que permiten la toma de decisiones dentro del programa. Utiliza **if-else** o **switch-case** para evaluar condiciones y ejecutar bloques de código en función de los resultados.
 
-### 4. [Aprendizaje_comandos\Bucles.lua](Bucles.lua)
+### 4. [Bucles.lua](Aprendizaje_comandos\Bucles.lua)
 Este archivo define los bucles que permiten la repetición de bloques de código mientras se cumpla una condición. Los bucles pueden ser **while**, **for**, o **repeat-until**.
 
 ### 5. [README.md](README.md)
