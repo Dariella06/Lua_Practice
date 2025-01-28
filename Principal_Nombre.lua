@@ -1,8 +1,15 @@
---Variables
+--Variables locales
 local nom = "Dariella"
 local edad = 18
 local subscrito = true
 local persona = {nombre = "Dariella", edad = 18}
+print(persona.nombre)  -- Muestra "Dariella"
+
+--Variables globales
+nom = "Dariella"
+edad = 18
+subscrito = true
+persona = {nombre = "Dariella", edad = 18}
 
 --Variables con operaciones
 local suma = 5 + 3  -- Suma
