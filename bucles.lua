@@ -4,6 +4,18 @@ for i = 1, 10 do
 end
 
 --bucle de while
-while true do
-    print("Esto es un bucle infinito")
+--Es un bucle infinito
+local contador = 1
+
+while contador <= 10 do
+    print(contador)
+    contador = contador + 1  -- Incrementa el contador en 1
 end
+
+--Es como un while pero la condicion se evalúa
+--Es como un do while
+local contador = 1
+repeat
+    print(contador)
+    contador = contador + 1
+until contador > 5
