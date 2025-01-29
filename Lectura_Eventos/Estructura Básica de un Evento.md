@@ -5,8 +5,9 @@ end)
 
 # Eventos Comunes en Roblox
 ### 1. Touched
-¿Qué hace?: Se activa cuando algo entra en contacto con una parte (objeto) en el mundo del juego.
-¿Cuándo usarlo?: Cuando quieras que algo suceda cuando un jugador o un objeto toque una parte (por ejemplo, para hacer daño o abrir una puerta).
+**¿Qué hace?:** Se activa cuando algo entra en contacto con una parte (objeto) en el mundo del juego.
+
+**¿Cuándo usarlo?:** Cuando quieras que algo suceda cuando un jugador o un objeto toque una parte (por ejemplo, para hacer daño o abrir una puerta).
 **Ejemplo:**
 
 local parte = script.Parent
@@ -17,8 +18,9 @@ parte.Touched:Connect(function(hit)
 end)
 
 ### 2. PlayerAdded
-¿Qué hace?: Se activa cuando un jugador entra al juego.
-¿Cuándo usarlo?: Si necesitas configurar algo para un jugador cuando se conecta (como darle puntos iniciales, ponerlo en un equipo, mostrarle un mensaje, etc.).
+**¿Qué hace?:** Se activa cuando un jugador entra al juego.
+
+**¿Cuándo usarlo?:** Si necesitas configurar algo para un jugador cuando se conecta (como darle puntos iniciales, ponerlo en un equipo, mostrarle un mensaje, etc.).
 **Ejemplo:**
 
 game.Players.PlayerAdded:Connect(function(jugador)
@@ -26,8 +28,9 @@ game.Players.PlayerAdded:Connect(function(jugador)
 end)
 
 ### 3. PlayerRemoving
-¿Qué hace?: Se activa cuando un jugador sale del juego.
-¿Cuándo usarlo?: Puedes usarlo para guardar datos de un jugador, como su puntuación, cuando se desconecta.
+**¿Qué hace?:** Se activa cuando un jugador sale del juego.
+
+**¿Cuándo usarlo?:** Puedes usarlo para guardar datos de un jugador, como su puntuación, cuando se desconecta.
 **Ejemplo:**
 
 game.Players.PlayerRemoving:Connect(function(jugador)
@@ -36,8 +39,9 @@ game.Players.PlayerRemoving:Connect(function(jugador)
 end) 
 
 ### 4. Heartbeat
-¿Qué hace?: Este evento se activa cada vez que se actualiza la física en el juego (es decir, en cada frame).
-¿Cuándo usarlo?: Es útil cuando necesitas ejecutar un código de forma continua, como para animaciones o mover un objeto constantemente.
+**¿Qué hace?:** Este evento se activa cada vez que se actualiza la física en el juego (es decir, en cada frame).
+
+**¿Cuándo usarlo?:** Es útil cuando necesitas ejecutar un código de forma continua, como para animaciones o mover un objeto constantemente.
 **Ejemplo:**
 
 game:GetService("RunService").Heartbeat:Connect(function()
@@ -56,8 +60,9 @@ boton.MouseButton1Click:Connect(function()
 end)
 
 ### 6. Touched (Part)
-¿Qué hace?: Similar a Touched, pero más específico para detectar interacciones con un objeto físico en el mundo 3D del juego (por ejemplo, un bloque, una esfera, etc.).
-¿Cuándo usarlo?: Cuando un jugador o un objeto entra en contacto con una parte y necesitas realizar una acción, como activar un mecanismo o hacer daño.
+**¿Qué hace?:** Similar a Touched, pero más específico para detectar interacciones con un objeto físico en el mundo 3D del juego (por ejemplo, un bloque, una esfera, etc.).
+
+**¿Cuándo usarlo?:** Cuando un jugador o un objeto entra en contacto con una parte y necesitas realizar una acción, como activar un mecanismo o hacer daño.
 **Ejemplo:**
 
 local parte = game.Workspace.Part
@@ -69,8 +74,9 @@ parte.Touched:Connect(function(hit)
 end)
 
 ### 7. Changed
-¿Qué hace?: Este evento se activa cuando una propiedad de un objeto cambia.
-¿Cuándo usarlo?: Útil para detectar cambios en las propiedades de objetos (como cambios en la posición, color, transparencia, etc.).
+**¿Qué hace?:** Este evento se activa cuando una propiedad de un objeto cambia.
+
+**¿Cuándo usarlo?:** Útil para detectar cambios en las propiedades de objetos (como cambios en la posición, color, transparencia, etc.).
 **Ejemplo:**
 
 local parte = game.Workspace.Part
@@ -80,8 +86,9 @@ parte.Changed:Connect(function()
 end)
 
 ### 8. Heartbeat (RunService)
-¿Qué hace?: Se activa en cada frame del juego, lo que lo convierte en un evento perfecto para tareas continuas como mover objetos o realizar animaciones.
-¿Cuándo usarlo?: Cuando necesitas hacer algo constantemente en cada frame (animaciones, mover objetos, etc.).
+**¿Qué hace?:** Se activa en cada frame del juego, lo que lo convierte en un evento perfecto para tareas continuas como mover objetos o realizar animaciones.
+
+**¿Cuándo usarlo?:** Cuando necesitas hacer algo constantemente en cada frame (animaciones, mover objetos, etc.).
 **Ejemplo:**
 
 game:GetService("RunService").Heartbeat:Connect(function()
