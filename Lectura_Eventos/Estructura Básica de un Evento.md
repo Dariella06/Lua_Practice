@@ -49,8 +49,9 @@ game:GetService("RunService").Heartbeat:Connect(function()
 end)
 
 ### 5. MouseButton1Click (Botón del Ratón)
-¿Qué hace?: Se activa cuando el jugador hace clic con el botón izquierdo del ratón sobre un objeto que tiene un TextButton, ImageButton o cualquier otro objeto interactivo.
-¿Cuándo usarlo?: Perfecto para botones de interfaces o para detectar clics en botones dentro de la UI.
+**¿Qué hace?:** Se activa cuando el jugador hace clic con el botón izquierdo del ratón sobre un objeto que tiene un TextButton, ImageButton o cualquier otro objeto interactivo.
+
+**¿Cuándo usarlo?:** Perfecto para botones de interfaces o para detectar clics en botones dentro de la UI.
 **Ejemplo:**
 
 local boton = script.Parent
